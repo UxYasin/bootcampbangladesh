@@ -31,7 +31,7 @@
         </div>
     </section>
 
-    <div class="container mt-30">
+    <div class="containerX mt-30">
 
         @if(!empty($featureWebinars) and !$featureWebinars->isEmpty())
             <section class="mb-25 mb-lg-0">
