@@ -88,7 +88,7 @@
                         @if(empty(request()->get('card')) or request()->get('card') == 'grid')
                             <div class="row">
                                 @foreach($webinars as $webinar)
-                                    <div class="col-12 col-lg-4 mt-20">
+                                    <div class="col-12 col-lg-3 mt-20">
                                         @include('web.default.includes.webinar.grid-card',['webinar' => $webinar])
                                     </div>
                                 @endforeach
