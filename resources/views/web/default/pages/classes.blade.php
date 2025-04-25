@@ -30,7 +30,7 @@
         </div>
     </section>
 
-    <div class="container mt-30">
+    <div class="containerX mt-30">
 
         <section class="mt-lg-50 pt-lg-20 mt-md-40 pt-md-40">
             <form action="/classes" method="get" id="filtersForm">
@@ -38,7 +38,7 @@
                 @include('web.default.pages.includes.top_filters')
 
                 <div class="row mt-20">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-3">
                         <div class="mt-20 p-20 rounded-sm shadow-lg border border-gray300 filters-container">
 
                             <div class="">
@@ -83,12 +83,12 @@
                             <button type="submit" class="btn btn-sm btn-primary btn-block mt-30">{{ trans('site.filter_items') }}</button>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-8">
+                    <div class="col-12 col-lg-9">
 
                         @if(empty(request()->get('card')) or request()->get('card') == 'grid')
                             <div class="row">
                                 @foreach($webinars as $webinar)
-                                    <div class="col-12 col-lg-6 mt-20">
+                                    <div class="col-12 col-lg-4 mt-20">
                                         @include('web.default.includes.webinar.grid-card',['webinar' => $webinar])
                                     </div>
                                 @endforeach
