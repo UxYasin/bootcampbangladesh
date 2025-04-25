@@ -7,7 +7,7 @@
 
 
 @section('content')
-    <section class="site-top-banner search-top-banner opacity-04 position-relative">
+    <!-- <section class="site-top-banner search-top-banner opacity-04 position-relative">
         <img src="{{ getPageBackgroundSettings('categories') }}" class="img-cover" alt=""/>
 
         <div class="container h-100">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <div class="containerX mt-30">
 
